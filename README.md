@@ -19,7 +19,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Quinesha van Burgh
 
   #### Je startniveau:
-  startniveau: Zwart
+  startniveau: rood/Zwart
 
   #### Je focus:
   focus: responsive
@@ -40,11 +40,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   hier de naam van de pagina  
-  <img src="readme-images/page1.jpg" width="375px" alt="omschrijving van de pagina">
+  <img src="readme-images/page1.jpeg" width="375px" alt="omschrijving van de pagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   hier de naam van de pagina  
-  <img src="readme-images/page2.jpg" width="375px" alt="omschrijving van de pagina">
+  <img src="readme-images/page2.jpeg" width="375px" alt="omschrijving van de pagina">
  
 </details>
 
