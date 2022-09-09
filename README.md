@@ -13,16 +13,16 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Jij
 
 <details open>
-  <summary>uitwerken voor kick-off werkgroep</summary>
+  <summary>Een project voor het vak Frontend Development.</summary>
 
   ### Auteur:
-  Sanne 't Hooft (vervangen door jouw naam)
+  Quinesha van Burgh
 
   #### Je startniveau:
-  hier je startniveau (kies uit zwart, rood óf blauw)
+  startniveau: Zwart
 
   #### Je focus:
-  hier je focus (kies uit responsive óf surface plane)
+  focus: responsive
  
 </details>
 
@@ -33,18 +33,18 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Je website
 
 <details open>
-  <summary>uitwerken voor kick-off werkgroep</summary>
+  <summary>Ik was helaas niet bij deze werkgroep omdat ik toen nog in een klas zat van de andere cluster.</summary>
 
   ### Je opdracht:
-  link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
+  https://www.cartoonnetwork.nl/
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  <img src="readme-images/page1.jpg" width="375px" alt="omschrijving van de pagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  <img src="readme-images/page2.jpg" width="375px" alt="omschrijving van de pagina">
  
 </details>
 
