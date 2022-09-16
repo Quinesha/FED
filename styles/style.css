@@ -32,8 +32,40 @@ button, summary {
 
 /* jouw code */
 
+#navbar{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+} 
+
+#wrapper{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: nowrap;
+	overflow: auto;	
+}
+
+#wrapper li{
+	margin: 1em;
+	list-style: none;
+}
+
 body {
   color:var(--color-text);
   background-color:var(--color-background);
 }
 
+img{
+	width: 50px;
+}
+
+#cirkel-carousel{
+	display: flex;
+	flex-wrap: nowrap;
+	overflow: auto;	
+}
+
+#cirkel-carousel img{
+	margin: 1em;
+}
