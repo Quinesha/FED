@@ -1,0 +1,377 @@
+/**************/
+/* CSS REMEDY */
+/**************/
+*, *::after, *::before {
+	box-sizing:border-box;  
+	margin: 0;
+	padding: 0;
+  }
+  
+  button, summary {
+	  cursor: pointer;
+  }
+  
+
+body {
+	color:var(--color-text);
+	background-color:var(--color-background);
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5{
+	font-family: 'Roboto Slab', serif;
+	font-weight:900;
+}
+
+/*navigation bar*/
+
+header{
+	background-color:#000000;
+	color: white;
+	padding: 0em;
+	width: 100%;
+} 
+
+/*CN logo*/
+
+header li{
+	list-style: none;
+}
+
+header li img{
+	margin: .5em;
+}
+
+header ul li a img{
+	margin: auto;
+}
+
+header ul{
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-top: 3em;
+	padding: 0;
+
+	flex-direction: column;
+}
+
+header ul li{
+	display: flex;
+	padding:.5em;
+	margin-top: 3em;
+}
+
+header ul li:first-of-type{
+	margin-top: 0;
+}
+
+header ul li a{
+	display: flex;
+	color: white;
+	text-decoration: none;
+	font-size: .7em;
+	position: absolute;
+}
+
+header ul li a h2{
+	margin: auto auto auto 1em;
+}
+
+/*icons*/
+
+header ul li img{
+	width: 4em;
+}
+
+nav {
+	position:absolute;
+	top:0;
+	bottom:18em;
+	left:0;
+	right:0;
+	
+	background-color:black;
+	
+	
+	transform:translateY(-100%);
+	z-index: 99;
+	transition-duration:.3s;
+}
+
+nav.open {
+	transform:translateY(0%);
+	z-index: 99;
+}
+
+header button{
+	position: absolute;
+	right: 1em;
+	top:1.5em;
+	background-color: black;
+	border: #000000;
+}
+
+header button img{
+	width: 2em;
+}
+
+header nav button{
+	position: absolute;
+	right: 1em;
+	top:1.5em;
+	background-color: black;
+	border: #000000;
+}
+
+header nav button img{
+	width: 2em;
+}
+
+/* cartoon cirkels carousel */
+
+main > section:first-of-type ul li:nth-child(3n + 1) a{
+	display: grid;
+	place-content: center;
+
+	height: 3.5em;
+	width: 3.5em;
+	
+	background: #009BDF;
+	border-radius: 50%;
+	border: none;
+	position: relative;
+
+	top: 0em;
+	left: 0em;
+	margin: 1em;
+}
+
+main > section:first-of-type ul li:nth-child(3n + 2) a{
+	display: grid;
+	place-content: center;
+
+	height: 3.5em;
+	width: 3.5em;
+	
+	background: #FFEA00;
+	border-radius: 50%;
+	border: none;
+	position: relative;
+
+	top: 0em;
+	left: 0em;
+	margin: 1em;
+}
+
+main > section:first-of-type ul li:nth-child(3n + 3) a{
+	display: grid;
+	place-content: center;
+
+	height: 3.5em;
+	width: 3.5em;
+	
+	background: #ED0080;
+	border-radius: 50%;
+	border: none;
+	position: relative;
+
+	top: 0em;
+	left: 0em;
+	margin: 1em;
+}
+
+main > section:first-of-type ul li a:first-of-type img{
+	border-radius: 0 0 50% 50% ;
+	width: 3.5em;
+}
+
+/*main section:first-of-type ul li a:first-of-type::before {
+	content:url("../images/grizz.png");
+	display: grid;
+	place-content: center;
+	color: white;
+	height: 4.8em;
+	width: 4.8em;
+	z-index:99;
+	
+	position: relative;
+	margin: 1em;
+	margin-top: 1.5em;
+  }*/
+
+main section:first-of-type button:first-of-type{
+	display: block;
+	margin:0;
+	background-color: white;
+	border-color: white;
+	padding: 1em;
+	border: none;
+	box-shadow: .1em .1em .1em .1em darkgray;
+}
+
+main section:first-of-type button:nth-of-type(2){
+	display: block;
+	margin:0;
+	background-color: white;
+	border-color: white;
+	padding: 1em;
+	border: none;
+	box-shadow: -.1em .1em .1em .1em darkgray;
+}
+
+main section:first-of-type{
+	display: flex;
+	grid-column-start: 1;
+	grid-column-end: -1;
+	height: 100%;
+	overflow: auto;
+}
+
+main > section:first-of-type{
+background-color: #E7E7E7;
+}
+
+main section > ul{
+	display: flex;
+	flex-wrap: nowrap;
+	overflow: auto;	
+	list-style: none;
+	margin: auto;
+	gap: 1em;
+}
+
+main > section:first-child ul li a img{
+	margin: 1em;
+}
+
+/**/
+
+footer{
+	background-color: #000000;
+	color: white;
+	padding: 6em;
+}
+
+footer p{
+	margin-bottom: 1em;
+}
+
+footer ul{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1em;
+	list-style: none;
+}
+
+footer ul li{
+	margin-bottom: 1em;
+}
+
+footer ul li a{
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+}
+
+footer img{
+	width: 6em;
+	float: right;
+}
+
+footer small{
+	float: right;
+}
+
+
+@media only screen and (min-width: 692px){
+
+/*CN logo*/
+
+header li{
+	list-style: none;
+}
+
+header li img{
+	margin: .5em;
+}
+
+header ul > li:first-of-type{
+	margin:0;
+}
+
+header ul > li:first-of-type img{
+	margin:0;
+}
+
+header ul li a img{
+	margin: auto;
+}
+
+/*icons*/
+
+header ul{
+	position: absolute;
+	right: 0;
+	left: 7em;
+
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding: 0;
+	flex-direction: row;
+	margin-top: 19em;
+}
+
+
+header ul li{
+	padding:.5em;
+	margin: 1em;
+	
+}
+
+header ul li a{
+	display: flex;
+	color: white;
+	text-decoration: none;
+	font-size: .7em;
+	position: relative;
+	align-content: center;
+}
+
+header ul li a h2{
+	margin: auto auto auto 1em;
+	font-size: 1em;
+}
+
+/*icons*/
+
+header ul li img{
+	width: 3em;
+	margin: 0;
+}
+
+nav {
+	display: flex;
+}
+
+header button{
+	display: none;
+}
+
+header button img{
+	display: none;
+}
+
+header nav button{
+	display: none;
+}
+
+header nav button img{
+	display: none;
+}
+}
