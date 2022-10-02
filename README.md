@@ -274,8 +274,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-  1. bron 1
-  2. bron 2
-  3. ...
-
+  1. afbeeldingen: https://www.cartoonnetwork.nl/
+  2. pijl icon: https://www.iconsdb.com/white-icons/arrow-20-icon.html
+  3. play button icon: https://www.iconsdb.com/white-icons/play-5-icon.html
+  4. gradient in afbeelding: https://ishadeed.com/article/handling-text-over-image-css/
+  5. cirkels met content: https://codepen.io/cheunyinz/pen/bGMvzvW
+  6. Uitklapbare navbar: https://codepen.io/shooft/pen/jOxGGeN?editors=0010
 </details>
