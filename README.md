@@ -39,11 +39,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   https://www.cartoonnetwork.nl
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
+  https://www.cartoonnetwork.nl/spelletjes  
   <img src="readme-images/page1.jpeg" width="375px" alt="Pagina met een verzameling van spelletjes">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina  
+  https://www.cartoonnetwork.nl/videos
   <img src="readme-images/page2.jpeg" width="375px" alt="Pagina met een verzamling aan video's">
  
 </details>
@@ -57,6 +57,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
+  het bedienen van een site is onmogelijk met de hand te doen in het geval van heftige parkinson.
+  Gedeeltelijke zicht beperkingen maaken het soms wel mogelijk om een pagina te lezen alleen gaan dan kleine details vaak verloren.
 
   #### Screenreader
   Hier korte omschrijving (met indien nodig afbeeldingen)
@@ -127,10 +129,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - punt 1: Semantiek van de code moet betel, vooral li's in ul's zetten. 
+  - punt 2: Absoluut geen id's en classes gebruiken tenzij het echt niet anders kan.
+  - punt 3: Achtergrond kleuren van de cirkels in de carousel kunnen in een patroon gemaakt worden met behulp van  :nth-child
 
 </details>
 
