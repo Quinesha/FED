@@ -40,11 +40,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   https://www.cartoonnetwork.nl/spelletjes  
-  <img src="readme-images/page1.jpeg" width="375px" alt="Pagina met een verzameling van spelletjes">
+  <img src="" alt="Pagina met een verzameling van spelletjes">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   https://www.cartoonnetwork.nl/videos
-  <img src="readme-images/page2.jpeg" width="375px" alt="Pagina met een verzamling aan video's">
+  <img src="" width="375px" alt="Pagina met een verzamling aan video's">
  
 </details>
 
