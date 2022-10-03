@@ -57,7 +57,7 @@ main section:nth-of-type(2) ul li a h3{
 	order: 2;
 
 	position: absolute;
-	padding: 0.5em;
+	padding: .5em;
 	padding-left: 1em;
 	padding-top: 2em;
 	
@@ -72,9 +72,10 @@ main section:nth-of-type(2) ul li a h3{
 main section:nth-of-type(2) a h4{
 	font-size: .8em;
 	color: white;
+
 	position: absolute;
 	margin-bottom: .5em;
-	padding: 0.5em;
+	padding: .5em;
 	padding-left: 1.5em;
 	
     bottom: 1.8em;
@@ -82,11 +83,21 @@ main section:nth-of-type(2) a h4{
 	left: 0;
 }
 
-/*hover gradient effect*/
+/* gradient effect*/
 
 main section:nth-of-type(2) a *:not(img){
 	opacity: 0;
 }
+
+
+/* play button in image
+main section:nth-of-type(2) ul li img:nth-of-type(2){
+	width: 1em;
+	position: absolute;
+	right: 1em;
+	bottom: 1em;
+	border-radius: 0;
+}*/
 
 main section:nth-of-type(2) ul li:hover :first-of-type{
 	opacity: 1;
@@ -122,7 +133,7 @@ main section:nth-of-type(3) > a img:nth-of-type(2){
 
 main section:nth-of-type(3) h2{
 	margin: auto auto auto .3em ;
-	font-size: 1.2em;
+	font-size: calc(1em + 1vw);
 }
 
 /*cirkel met icoon secion 3*/
@@ -143,8 +154,8 @@ main section:nth-of-type(3) > li:first-of-type a{
 	border: none;
 	position: relative;
 
-	top: 0em;
-	left: 0em;
+	top: 0;
+	left: 0;
 	margin: 1em;
 }
 
@@ -159,6 +170,11 @@ main section:nth-of-type(3) > li:first-of-type a img{
 main section:nth-of-type(3) ul > li a img{
     width: 19em;
 	border-radius: 1em 1em 0 0;
+}
+
+main section:nth-of-type(3) ul > li a:first-of-type img:hover{
+	width: 20em;
+	transition-duration: .2s, .2s
 }
 
 main section:nth-of-type(3) ul{
@@ -183,7 +199,7 @@ main section:nth-of-type(3) ul li > :nth-child(1n + 2){
 	position: absolute;
 
 	top: 7.9em;
-	right: 0em;
+	right: 0;
 	margin: 1em;
 }
 
@@ -205,7 +221,7 @@ main section:nth-of-type(3) ul li a h3{
 	font-size: 1.2em;
 	order: 2;
 
-	padding: 0.5em;
+	padding: .5em;
 	padding-left: 1em;
 }
 
@@ -250,7 +266,7 @@ main section:nth-of-type(2n + 3) > a:first-of-type{
 	color: white;
 	appearance: none;
 	font-family: 'Montserrat', sans-serif;
-	font-size: 1em;
+	font-size: calc(.5em + 1vw);
 	font-weight: bolder;
 	text-align: center;
 }
@@ -279,6 +295,8 @@ main section:nth-of-type(4) ul li:nth-of-type(3) a{
 
 main section:nth-of-type(4) ul li:nth-of-type(3) a p{
 	margin: auto;
+	font-size: calc(1em + .5vw);
+	white-space: nowrap;
 }
 
 main section:nth-of-type(4) ul li:nth-of-type(3) a img{
@@ -290,14 +308,14 @@ main section:nth-of-type(4) ul li:nth-of-type(3) a img{
 /*courasel section 4 images*/
 main section:nth-of-type(4) img{
 	width: 40%;
-	border-radius: .5em 0em 0em .5em;
+	border-radius: .5em 0 0 .5em;
 }
 
 /*Klimaatkampioenen link responsive*/
 
 main section:nth-of-type(4) img{
 	width: 100%;
-	border-radius: .5em .5em 0em 0em;
+	border-radius: .5em .5em 0 0;
 	
 }
 
@@ -337,7 +355,7 @@ main section:nth-of-type(4) ul li h2{
 main section:nth-of-type(4) ul li img{
 	float: left;
 	margin: 0;
-	margin-bottom: 1rem;
+	margin-bottom: 1em;
 }
 
 /*Klimaatkampioenen button*/
@@ -367,6 +385,7 @@ main section:nth-of-type(5) > a{
 
 main section:nth-of-type(5) > a p{
 	margin: auto;
+	font-size: calc(.5em + 1vw);
 }
 
 main section:nth-of-type(5) > a img:first-of-type{
@@ -402,14 +421,19 @@ main section:nth-of-type(5) > li:first-of-type a{
 	border: none;
 	position: ab;
 
-	top: 0em;
-	left: 0em;
+	top: 0;
+	left: 0;
 	margin: 1em;
 }
 
 main section:nth-of-type(5) > li:first-of-type a img{
 	width: 1.5em;
 	margin: auto auto auto .3em;
+}
+
+main section:nth-of-type(5) ul > li a:first-of-type img:hover{
+	width: 20em;
+	transition-duration: .2s, .2s
 }
 
 /*meerdere icoon circles section 5*/
@@ -430,21 +454,21 @@ main section:nth-of-type(5) ul li > :nth-child(1n + 2){
 	position: absolute;
 
 	top: 7.9em;
-	right: 0em;
+	right: 0;
 	margin: 1em;
 }
 
 main section:nth-of-type(5) li a:nth-of-type(2) img{
 	width: 1.2em;
-	margin: auto auto auto 0.3em;
+	margin: auto auto auto .3em;
 	border-radius: 0 0 0 0;
 }
 
 /*section 5 h2*/
 
 main section:nth-of-type(5) h2{
-	margin: auto auto auto 0.3em;
-    font-size: 1.2em;
+	margin: auto auto auto .3em;
+    font-size: calc(1em + 1vw);
 }
 
 main section:nth-of-type(5){
@@ -458,7 +482,7 @@ main section:nth-of-type(5) ul li a img{
 }
 
 main section:first-of-type ul li a img{
-    width:4.5em;
+    width: 4.5em;
 }
 
 main section:nth-of-type(5){
@@ -487,7 +511,7 @@ main section:nth-of-type(5) ul li a h3{
 	font-size: 1.2em;
 	order: 2;
 
-	padding: 0.5em;
+	padding: .5em;
 	padding-left: 1em;
 }
 
@@ -496,7 +520,7 @@ main section:nth-of-type(5) ul h4{
 	font-weight: bold;
 	font-size: .8em;
 
-	padding: 0.5em;
+	padding: .5em;
 	padding-bottom: 0;
 	padding-left: 1.5em;
 
@@ -537,8 +561,8 @@ main section:nth-of-type(6) > li:first-of-type a{
 	border: none;
 	position: ab;
 
-	top: 0em;
-	left: 0em;
+	top: 0;
+	left: 0;
 	margin: 1em;
 }
 
@@ -565,7 +589,7 @@ main section:nth-of-type(6) ul li > :nth-child(1n + 2){
 	position: absolute;
 
 	top: 7.9em;
-	right: 0em;
+	right: 0;
 	margin: 1em;
 }
 
@@ -584,6 +608,7 @@ main section:nth-of-type(6) > a{
 
 main section:nth-of-type(6) > a p{
 	margin: auto;
+	font-size: calc(.5em + 1vw);
 }
 
 main section:nth-of-type(6) > a img:first-of-type{
@@ -600,7 +625,7 @@ main section:nth-of-type(6) > a img:nth-of-type(2){
 
 main section:nth-of-type(6) h2{
 	margin: auto auto auto .3em ;
-	font-size: 1.2em;
+	font-size: calc(1em + 1vw);
 }
 
 /*section 6 h2*/
@@ -617,6 +642,11 @@ main section:nth-of-type(6){
 main section:nth-of-type(6) ul > li img{
     width: 22em;
 	border-radius: 1em;
+}
+
+main section:nth-of-type(6) ul > li a:first-of-type img:hover{
+	width: 20em;
+	transition-duration: .2s, .2s
 }
 
 main section:first-of-type ul li a img{
@@ -794,6 +824,7 @@ main section:nth-of-type(7) ul li:nth-of-type(3) a{
 
 main section:nth-of-type(7) ul li:nth-of-type(3) a p{
 	margin: auto;
+	font-size: calc(1em + 1vw);
 }
 
 main section:nth-of-type(7) ul li:nth-of-type(3) a img{
@@ -812,8 +843,9 @@ main section:nth-of-type(8) > a{
 }
 
 main section:nth-of-type(8) > a p{
-	margin: auto auto auto 5em ;
+	margin: auto;
 	padding: .9em;
+	font-size: calc(.5em + 1vw);
 }
 
 /*grizz de beer section 8 knop*/
@@ -857,6 +889,11 @@ main section:nth-of-type(8) > li:first-of-type a{
 main section:nth-of-type(8) > li:first-of-type a img{
 	width: 3.2em;
 	border-radius: 50%;
+}
+
+main section:nth-of-type(8) ul > li a:first-of-type img:hover{
+	width: 20em;
+	transition-duration: .2s, .2s
 }
 
 /*meerdere icoon circles section 8*/
@@ -903,6 +940,7 @@ main section:nth-of-type(8) ul > li:nth-of-type(3) a:nth-of-type(2) img{
 
 main section:nth-of-type(8) h2{
 	margin: auto auto auto 1em;
+	font-size: calc(1em + 1vw);
 }
 
 main section:nth-of-type(8){
@@ -942,6 +980,14 @@ main section:nth-of-type(8) > a:first-of-type{
 	font-size: 1em;
 	font-weight: bolder;
 	text-align: center;
+}
+
+main section:nth-of-type(8) > a img:first-of-type{
+	position: absolute;
+	margin: auto auto auto .5em;
+	width: 4em;
+	bottom: 0;
+	display: none;
 }
 
 /*volgorde en styling h3 en h4 section 8*/
@@ -1024,6 +1070,11 @@ main section:nth-of-type(9) > li:first-of-type a img{
 	border-radius: 50%;
 }
 
+main section:nth-of-type(9) ul > li a:first-of-type img:hover{
+	width: 20em;
+	transition-duration: .2s, .2s
+}
+
 /*meerdere icoon circles section 8*/
 main section:nth-of-type(9) ul li:nth-of-type(1n + 1){
 	position: relative;
@@ -1060,16 +1111,18 @@ main section:nth-of-type(9) > a{
 }
 
 main section:nth-of-type(9) > a p{
-	margin: auto auto auto 7em ;
-	padding: .2em;
+	margin: auto;
+	padding: .1em;
+	font-size: .7em;
 }
 
 /*gumball section 9 knop*/
 main section:nth-of-type(9) > a img:first-of-type{
 	position: absolute;
 	margin: auto auto auto .5em;
-	width: 6em;
+	width: 4em;
 	bottom: 0;
+	display: none;
 }
 
 main section:nth-of-type(9) > a img:nth-of-type(2){
@@ -1130,6 +1183,7 @@ main section:nth-of-type(9) ul li{
 
 main section:nth-of-type(9) h2{
 	margin: auto;
+	font-size: calc(1em + 1vw);
 }
 
 main section:nth-of-type(9){
@@ -1176,7 +1230,7 @@ main section:nth-of-type(9) button:first-of-type img{
 	width: 15%;
 }
 
-/*Best of Gumball link*/
+/*voedselgevecht link*/
 
 main section:nth-of-type(10){
 	display: flex;
@@ -1197,7 +1251,7 @@ main section:nth-of-type(10) img{
 	border-radius: .5em 0em 0em .5em;
 }
 
-/*Best of Gumball link responsive*/
+/*voedselgevecht link responsive*/
 
 main section:nth-of-type(10) img{
 	width: 100%;
@@ -1244,7 +1298,7 @@ main section:nth-of-type(10) ul li img{
 	margin-bottom: 1rem;
 }
 
-/*Best of Gumball button*/
+/*voedselgevecht button*/
 
 main section:nth-of-type(10) ul li a{
 	display: block;
@@ -1269,6 +1323,7 @@ main section:nth-of-type(10) ul li:nth-of-type(3) a{
 
 main section:nth-of-type(10) ul li:nth-of-type(3) a p{
 	margin: auto;
+	font-size: calc(1em + 1vw);
 }
 
 main section:nth-of-type(10) ul li:nth-of-type(3) a img{
@@ -1296,6 +1351,7 @@ main section:nth-of-type(10) ul li:nth-of-type(3) a img{
 		object-fit: cover;
 		border-radius: .5em 0em 0em .5em;
 	}
+	
 
 	main section:nth-of-type(4) ul li:first-of-type {
 		border-radius: .5em 0 0 .5em;
@@ -1353,5 +1409,78 @@ main section:nth-of-type(10) ul li:nth-of-type(3) a img{
 
 	main section:nth-of-type(10) ul li:last-of-type{
 		border-radius: 0 0 .5em 0;
+	}
+
+}
+
+@media only screen and (min-width: 580px){
+
+	/*section 9 plaatje op button styling*/
+	main section:nth-of-type(9) > a img:first-of-type{
+		width: 6em;
+		display: block;
+	}
+
+	main section:nth-of-type(9) > a p{
+		margin-left: 11em;
+		margin: auto auto auto 6em ;
+		padding: .1em;
+		font-size: calc(.5em + 1vw);
+	}
+	
+
+	main section:nth-of-type(9) > a img:first-of-type{
+		position: absolute;
+		margin: auto auto auto .5em;
+		width: 4em;
+		bottom: 0;
+	}
+
+	/*section 8 plaatje op button styling*/
+
+	main section:nth-of-type(8) > a img:first-of-type{
+		width: 6em;
+		display: block;
+	}
+
+	main section:nth-of-type(8) > a p{
+		margin-left: 11em;
+		margin: auto auto auto 6em ;
+		padding: .1em;
+		font-size: calc(.5em + 1vw);
+	}
+
+	main section:nth-of-type(8) > a img:first-of-type {
+    position: absolute;
+    margin: auto auto auto 0.5em;
+    width: 4em;
+    bottom: 0;
+	}
+}
+	
+
+@media only screen and (min-width: 1080px){
+/*section 8 plaatje op button styling*/
+
+	main section:nth-of-type(8) > a img:first-of-type{
+		width: 6em;
+	}
+
+	main section:nth-of-type(8) > a p{
+		margin-left: 11em;
+		margin: auto auto auto 6em ;
+		padding: .1em;
+		font-size: calc(.5em + 1vw);
+	}
+
+	main section:nth-of-type(9) > a img:first-of-type{
+		width: 7em;
+	}
+
+	main section:nth-of-type(9) > a p{
+		margin-left: 11em;
+		margin: auto auto auto 6em ;
+		padding: .1em;
+		font-size: calc(.5em + 1vw);
 	}
 }
