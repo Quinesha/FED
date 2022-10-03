@@ -413,7 +413,7 @@ header ul{
 	padding: 0;
 	flex-direction: row;
 	margin-top: 0;
-	justify-content: center;
+	justify-content: space-evenly;
 }
 
 header ul li{
