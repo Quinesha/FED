@@ -280,4 +280,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   4. gradient in afbeelding: https://ishadeed.com/article/handling-text-over-image-css/
   5. cirkels met content: https://codepen.io/cheunyinz/pen/bGMvzvW
   6. Uitklapbare navbar: https://codepen.io/shooft/pen/jOxGGeN?editors=0010
+  7. scrollbar verbergen: https://stackoverflow.com/questions/43186015/css-hide-scroll-bar-but-have-element-scrollable
+  8. scrollbar buttons werking: https://stackoverflow.com/questions/69376386/how-i-can-create-top-button-and-left-right-scrollbar-moving-button
+  9. cirkel courasel buttons schaduw: https://stackoverflow.com/questions/10463208/box-shadow-on-the-left-side-of-the-element-only
+  10. 
 </details>
