@@ -1,0 +1,372 @@
+
+/*********************/
+/* CUSTOM PROPERTIES */
+/*********************/
+:root {
+	/* startje */
+	--color-text:#000000;
+	--color-background:white;
+}
+
+/****************/
+/* JOUW STYLING */
+/****************/
+
+/* jouw code */
+
+/*grid*/
+main {
+	background-color:#009BDF;
+	display:grid;
+	grid-template-columns: 25% 75%;
+}
+
+main div{
+	grid-column-start: 2;
+	grid-column-end: 3;
+	display:grid;
+	grid-template-columns: 100%;
+	justify-content: end;
+	bottom: 82em;
+	padding: 1em;
+}
+
+main img{
+	width: 4.5em;
+}
+
+/*header*/
+
+header ul li:nth-of-type(2) a{
+	background-color: #009BDF;
+}
+
+/*filter*/
+
+ul{
+	padding: 0;
+}
+
+main > ul{
+	grid-column-start: 1;
+	grid-column-end: 2;
+	list-style: none;
+	padding: 1em;
+	margin-left: 1em;
+	width: 95%;
+}
+
+main > ul li{
+	position: relative;
+	background-color:#00638E;
+	padding: 0.5em;
+	width: inherit;
+}
+
+main > ul li:first-of-type{
+	border-radius: 1em 1em 0em 0em;
+	padding-top: 1.5em;
+}
+
+main > ul li:last-of-type{
+	border-radius: 0em 0em 1em 1em;
+	padding-bottom: 1.5em;
+}
+
+main > ul li a{
+	display: flex;
+	flex-direction: row;
+	background-color:white;
+
+	color: #000000;
+	text-decoration: none;
+	font-weight: bold;
+
+	padding: .5em;
+	margin: 0.2em;
+	border-radius: 5em;
+
+	position: relative;
+}
+
+main > ul li a img{
+	width: .7em;
+	position: absolute;
+	right: .35em;
+	top: .7em;
+}
+
+main > ul li a.black{
+	display: flex;
+	flex-direction: row;
+	background-color:rgb(0, 0, 0);
+
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: bold;
+
+	padding: .5em;
+	margin: 0.2em;
+	border-radius: 5em;
+}
+
+main > ul li a h2{
+	font-size: calc(.5em + 0.5vw);
+	font-family: 'Montserrat', sans-serif;
+	font-weight:700;
+	white-space: nowrap;
+}
+
+/*andere carousels*/
+
+main div ul{
+	display: flex;
+	gap: 1em;
+	flex-wrap: nowrap;
+	overflow: auto;	
+	list-style: none;
+	width:100%;
+}
+
+main div ul li{
+	background-color: white;
+	border-radius: .5em .5em .5em .5em;
+	position: relative;
+}
+
+/*NIEUW rechthoekje*/
+main div ul li a:nth-of-type(2){
+	color: white;
+	background-color: deeppink;
+	position: absolute;
+	top:1em;
+	padding: .5em;
+}
+
+h3{
+	color: #000000;
+	font-weight: bold;
+	font-size: 1.2em;
+	order: 2;
+
+	padding: .5em;
+	padding-left: 1em;
+}
+
+h4{
+	color: #A5A2A5;
+	font-weight: bold;
+	font-size: .8em;
+
+	padding: 0.5em;
+	padding-bottom: 0;
+	padding-left: 1.5em;
+
+	margin-top: .5em;
+}
+
+main div section ul li a {
+	display: flex;
+	flex-direction: column;
+	text-decoration: none;
+	color: #000000;
+	font-family: 'Montserrat', sans-serif;
+}
+
+main div section ul li a:hover img{
+	width: 19em;
+
+	transition-duration: .2s, .2s;
+}
+
+main div section ul li a :nth-child(2) {
+	order: 2;
+}
+
+main div ul li a img{
+	width: 18em;
+	margin: 0;
+	border-radius: .5em .5em 0 0;
+}
+
+/*buttons*/
+
+main div section button:hover{
+	padding: 1.5em;
+	font-size: calc(.1em + 1.5vw);
+}
+
+main div section{
+	display: flex;
+	flex-wrap:wrap;
+	justify-content: space-between;
+	align-items:center;
+}
+
+main div button{
+	width: 20%;
+	padding: .8em;
+	border-radius: .6em;
+	background-color: #000000;
+	color: white;
+	appearance: none;
+	border: none;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bolder;
+	font-size: calc(.1em + 1vw);
+
+	white-space: nowrap;
+}
+
+main div section button:first-of-type{
+	grid-row-start: 1;
+	grid-row-start: 2;
+}
+
+main div section h2{
+	font-size: calc(1em + 1vw);
+	white-space: nowrap;
+}
+
+/*Laatste carousel*/
+
+main > section:nth-of-type(2){
+	background-color: #007FB7;
+	grid-column-start: 1;
+	grid-column-end: -1;
+	margin-top: .5em;
+	padding-top: .2em;
+}
+
+main > section:nth-of-type(2) ul{
+	background-color: #007FB7;
+	display: flex;
+	overflow: auto;
+}
+
+main section:nth-of-type(2) ul > li{
+	margin: auto;
+}
+
+main > section:nth-of-type(2) ul li a{
+	margin: auto;
+	margin-left: 1em;
+}
+
+main section:nth-of-type(2) ul img{
+	width: 18em;
+	flex-wrap: wrap;
+	margin: auto;
+}
+
+main section:last-of-type h2{
+	font-size: calc(1em + 1vw);
+	margin-left: .6em;
+	margin-top: .2em;
+}
+
+@media only screen and (max-width: 720px){
+
+
+	main{
+		display: block;
+	}
+
+	main section{
+		margin: 1em;
+	}
+
+	main > section:first-of-type{
+		margin: 0em;
+	}
+
+	main > section:last-of-type{
+		margin: 0em;
+	}
+
+	main > section:last-of-type ul{
+		
+		margin-bottom: 0;
+	}
+
+	main > section:last-of-type img{
+		width: 6em;
+	}
+
+	main > ul{
+		display: flex;
+		overflow: auto;
+		width: 100%;
+		margin: 0;
+		padding-left: 0;
+		z-index: 98;
+	}
+
+	main > ul li{
+		font-size: 1em;
+		background-color:#009BDF;
+	}
+
+	main > ul li a{
+		display: flex;
+		place-content: center;
+	}
+
+	main > ul li a h2{
+
+		display: inline;
+		text-align: center;
+		font-size: calc(.5em + 1vw);
+		padding: .2em;
+		border-radius: 5em;
+
+		margin-left: 1em;
+		margin-right: 1em;
+		white-space: nowrap;
+	}
+
+
+	main > ul li:first-of-type{
+		border-radius: 0;
+		padding-top: .5em;
+	}
+	
+	main > ul li:last-of-type{
+		border-radius: 0;
+		padding-bottom: .5em;
+	}
+
+	main div{
+		padding: 0;
+	}
+
+	main div section:first-of-type{
+		margin-top: 0em;
+	}
+
+	main div section:first-of-type h2{
+		margin-bottom: 1em;
+		margin: 0 0 1em 0;
+	}
+
+	main div section h2{
+		margin: 1em 0 1em 0;
+	}
+
+	main div button{
+		width: 35%;
+		padding: .8em;
+		border-radius: .6em;
+		background-color: #000000;
+		color: white;
+		appearance: none;
+		border: none;
+		font-family: 'Montserrat', sans-serif;
+		font-weight: bolder;
+		font-size: .5em;
+	
+		white-space: nowrap;
+	}
+
+}
+
