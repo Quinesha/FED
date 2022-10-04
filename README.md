@@ -406,19 +406,38 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/phone1.jpeg" alt="iphone SE nav gesloten">
+  <img src="readme-images/phone2.jpeg" alt="iphone SE nav open">
+
+  <img src="readme-images/pc1.jpeg" alt="gamepagine">
+  <img src="readme-images/pc2.jpeg" alt="homepagina">
 
 
   ### Dit ging goed/Heb ik geleerd: 
   Korte omschrijving met plaatjes
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  Ik heb veel geleerd over positioneren doormiddel van het gebruik van tags
+  <img src="readme-images/positie.jpeg" alt="courasel blok">
+  <img src="readme-images/positie2.jpeg" alt="courasel blok">
+  <img src="readme-images/beer.jpeg" alt="beer button">
 
+  Ook heb ik geleerd over het maken/gebruik grid en flex
+  <img src="readme-images/grid.jpeg" alt="filter en courasel grid">
+
+  En ik heb vooral heel veel geleerd over het maken van courasels
+  <img src="readme-images/cirkels.jpeg" alt="cirkel courasel">
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+  Er is 1 ding wat me niet lukte en dat was het smooth laten sliden van mij 1e courasel.
+  voor de rest is bijna alles gelukt. 
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  <img src="readme-images/cirkels.jpeg" alt="cirkel courasel">
+
+  wat ik wel graag had willen doen als ik extra tijd had was het maken van meer custom properties
+  en een ander thema voor de site ontwerpen wat me heel leuk lijkt vanwege de aard van mijn site.
+  ook had ik de navbar willen laten verschijnen op het moment dat je naar boven scrollt via een scroll animatie
+  en had ik graag een darkmode willen creëren wat echt een must is voor iemand als ik.
+
 </details>
 
 
