@@ -1,7 +1,5 @@
 // JavaScript Document
 
-console.log("hi");
-
 /* menu openen */
 
 var openButton = document.querySelector("header > button");
