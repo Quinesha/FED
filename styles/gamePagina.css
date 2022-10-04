@@ -16,7 +16,7 @@
 
 main > section:first-of-type h2{
 	position: absolute;
-	left: -100%;
+	left: -200%;
 }
 
 /*grid*/
