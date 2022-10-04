@@ -247,20 +247,6 @@ main > section:first-of-type ul li a:first-of-type:hover{
 	scale: 1.2;
 }
 
-/*main section:first-of-type ul li a:first-of-type::before {
-	content:url("../images/grizz.png");
-	display: grid;
-	place-content: center;
-	color: white;
-	height: 4.8em;
-	width: 4.8em;
-	z-index:99;
-	
-	position: relative;
-	margin: 1em;
-	margin-top: 1.5em;
-  }*/
-
 main section:first-of-type button:first-of-type{
 	display: block;
 	margin:0;
@@ -370,11 +356,6 @@ header li{
 	list-style: none;
 }
 
-/* cn img test 2
-header li img{
-	margin: .37em 1em .1em 1.5em;
-	width: 6.4em;
-}*/
 
 header ul > li:first-of-type{
 	margin:0;
