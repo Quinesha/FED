@@ -191,9 +191,13 @@ main div ul li a img{
 
 /*buttons*/
 
+main div section button{
+font-size: calc(.2em + 1vw);
+}
+
 main div section button:hover{
 	padding: 1.5em;
-	font-size: calc(.1em + 1.5vw);
+	font-size: calc(.2em + 1vw);
 }
 
 main div section{
@@ -262,7 +266,6 @@ main section:nth-of-type(2) ul img{
 main section:last-of-type h2{
 	font-size: calc(1em + 1vw);
 	margin-left: .6em;
-	margin-top: .2em;
 }
 
 @media only screen and (max-width: 720px){

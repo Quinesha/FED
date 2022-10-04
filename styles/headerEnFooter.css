@@ -68,7 +68,7 @@ main section > a:nth-of-type(2){
 	box-shadow: -2px 0px 10px 1px #aaaaaa;
 }
 
-main section > a:first-of-type{
+main section:first-of-type > a:first-of-type{
 	background-color: white;
 	padding: .5em;
 	box-shadow: 2px 0px 10px 1px #aaaaaa;

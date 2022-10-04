@@ -89,16 +89,6 @@ main section:nth-of-type(2) a *:not(img){
 	opacity: 0;
 }
 
-
-/* play button in image
-main section:nth-of-type(2) ul li img:nth-of-type(2){
-	width: 1em;
-	position: absolute;
-	right: 1em;
-	bottom: 1em;
-	border-radius: 0;
-}*/
-
 main section:nth-of-type(2) ul li:hover :first-of-type{
 	opacity: 1;
 	transition: ease .2s;
