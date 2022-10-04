@@ -139,9 +139,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - het maken van het filter.
 
   Courasels:
-   <img src="readme-images/week1/code.jpeg" width="375px" alt="code cirkel courasel">
-   <img src="readme-images/week1/cirkels.jpeg" width="375px" alt="cirkel courasel">
-   <img src="readme-images/week1/courasel.jpeg" width="375px" alt="courasel">
+   <img src="readme-images/week1/code.jpeg" alt="code cirkel courasel">
+   <img src="readme-images/week1/cirkels.jpeg" alt="cirkel courasel">
+   <img src="readme-images/week1/courasel.jpeg" alt="courasel">
 
   Filter:
   <img src="readme-images/week1/filter.jpeg" width="375px" alt="filter">
