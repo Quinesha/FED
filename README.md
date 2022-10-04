@@ -215,7 +215,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Responsiveness:
    <img src="readme-images/week2/klimaat.jpeg" alt="blok klimaatkampioenen">
    <img src="readme-images/week2/klimaat2.jpeg" alt="blok klimaatkampioenen small">
-   <img src="readme-images/week2/klimaat-code" alt="blok klimaatkampioenen code">
+   <img src="readme-images/week2/klimaat-code.jpeg" alt="blok klimaatkampioenen code">
 
 
   ### Agenda voor meeting
