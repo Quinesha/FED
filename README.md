@@ -206,6 +206,18 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - Buttons op de juuste plek plaatsen.
   - Pagina responsive maken.
 
+  Courasels:
+   <img src="readme-images/week2/gekleurde-cirkels.jpeg" alt="cirkel courasel">
+   <img src="readme-images/week2/gekleurde-cirkels-code.jpeg" alt="cirkel courasel code">
+
+   <img src="readme-images/week2/ronded-borders-courasel.jpeg" alt="rounded borders courasel">
+
+  Responsiveness:
+   <img src="readme-images/week2/klimaat.jpeg" alt="blok klimaatkampioenen">
+   <img src="readme-images/week2/klimaat2.jpeg" alt="blok klimaatkampioenen small">
+   <img src="readme-images/week2/klimaat-code" alt="blok klimaatkampioenen code">
+
+
   ### Agenda voor meeting
   samen met je groepje opstellen
 
@@ -258,10 +270,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   #### Screenreader
   Hier korte omschrijving (met indien nodig afbeeldingen)
 
-  
+  - De screenreader slaat sommige onderdelen van mijn site over.
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
 
+  - Dit komt omdat dit <a> tags zijn waren zonder href's dus door deze toe te voegen zal de screenreader deze wel zien
 
   #### Muis en Toetsenbord 
   Hier korte omschrijving (met indien nodig afbeeldingen)
@@ -308,7 +321,31 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   Goed:
   - Het maken van courasels
- 
+  - buttons maken
+  - hover effecten
+
+
+  Hover:
+  <img src="readme-images/week3/hover.jpeg" alt="hover effect courasel">
+  <img src="readme-images/week3/hover-code.jpeg" alt="hover effect courasel code">
+
+  Courasels:
+  <img src="readme-images/week3/cirkel-buttons2.jpeg" alt="cirkel courasel met buttons">
+  <img src="readme-images/week3/cirkel-buttons.jpeg" alt="cirkel courasel met buttons code">
+
+  Scrollbars:
+  <img src="readme-images/week3/hideScroll.jpeg" alt="scrollbar verborgen">
+
+
+  Positioneren:
+  <img src="readme-images/week3/positioning2.jpeg" alt="nieuw blokje op afbeelding">
+  <img src="readme-images/week3/positioning2-code.jpeg" alt="nieuw blokje op afbeelding">
+
+
+  Dropdown:
+  <img src="readme-images/week3/dropdown.jpeg" alt="dropdown dicht">
+  <img src="readme-images/week3/dropdown2.jpeg" alt="dropdown open">
+  <img src="readme-images/week3/dropdown-code.jpeg" alt="dropdown code">
 
   Lastig:
   - Het gebruiken van grid voor het stylen van m'n pagina.
