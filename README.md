@@ -41,7 +41,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de tweede pagina (small screen):
   https://www.cartoonnetwork.nl/spelletjes
-  <img src="readme-images/page1.2.jpeg" width="375px" alt="Cartoon Network pagina met een verzameling van spelletjes">
+  <img src="readme-images/page1.2.jpeg" alt="Cartoon Network pagina met een verzameling van spelletjes">
  
 </details>
 
