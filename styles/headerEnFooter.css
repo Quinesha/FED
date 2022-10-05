@@ -24,7 +24,24 @@ html {
 	  cursor: pointer;
   }
   
-
+  :root {
+	/* startje */
+	--color-text:#000000;
+	--color-background:#009BDF;
+	--blue2-background:#00638E;
+	--blue3-background:#305692;
+	--blue4-background:#0B6BBF;
+	--pink-background:#ED0080;
+	--lightpink-background:#E24E9B;
+	--yellow-background:#FFEA00;
+	--black-background:#000000;
+	--white-background:#ffff;
+	--offwhite-background:#F8F7F8;
+	--greyish-background:#aaaaaa;
+	--brown-background:#342E34;
+	--darkgrey-background:rgba(81, 78, 78, 0.073);
+	
+}
 body {
 	color:var(--color-text);
 	background-color:var(--color-background);
@@ -47,11 +64,11 @@ h1{
 /*navigation bar*/
 
 header{
-	color: white;
+	color: var(--white-background);
 	padding: 0em;
 	margin: 0;
 	width: 100%;
-	background-color: #000000;
+	background-color:var(--black-background);
 	height: 4.4em;
 } 
 
@@ -69,15 +86,15 @@ main section > a img{
 }
 
 main section > a:nth-of-type(2){
-	background-color: white;
+	background-color: var(--white-background);
 	padding: .5em;
 	box-shadow: -2px 0px 10px 1px #aaaaaa;
 }
 
 main section:first-of-type > a:first-of-type{
-	background-color: white;
+	background-color:var(--white-background);
 	padding: .5em;
-	box-shadow: 2px 0px 10px 1px #aaaaaa;
+	box-shadow: 2px 0px 10px 1px var(--greyish-background);
 }
 
 /*CN logo*/
@@ -92,7 +109,7 @@ header li img{
 }*/
 
 header ul{
-	background-color: #000000;
+	background-color:var(--black-background);
 }
 
 header nav{
@@ -140,7 +157,7 @@ header ul li:first-of-type{
 
 header ul li a{
 	display: flex;
-	color: white;
+	color: var(--white-background);
 	text-decoration: none;
 	font-size: .7em;
 	position: absolute;
@@ -161,8 +178,8 @@ header button{
 	position: absolute;
 	right: 1em;
 	top:1.5em;
-	background-color: black;
-	border: #000000;
+	background-color: var(--black-background);
+	border: var(--black-background);
 }
 
 header button img{
@@ -173,8 +190,8 @@ header nav button{
 	position: absolute;
 	right: 1em;
 	top:1.5em;
-	background-color: black;
-	border: #000000;
+	background-color: var(--black-background);
+	border: var(--black-background);
 }
 
 header nav button img{
@@ -194,7 +211,7 @@ main > section:first-of-type ul li:nth-child(3n + 1) a{
 	height: 3.5em;
 	width: 3.5em;
 	
-	background: #009BDF;
+	background: var(--color-background);
 	border-radius: 50%;
 	border: none;
 	position: relative;
@@ -211,7 +228,7 @@ main > section:first-of-type ul li:nth-child(3n + 2) a{
 	height: 3.5em;
 	width: 3.5em;
 	
-	background: #FFEA00;
+	background: var(--yellow-background);
 	border-radius: 50%;
 	border: none;
 	position: relative;
@@ -228,7 +245,7 @@ main > section:first-of-type ul li:nth-child(3n + 3) a{
 	height: 3.5em;
 	width: 3.5em;
 	
-	background: #ED0080;
+	background: var(--pink-background);
 	border-radius: 50%;
 	border: none;
 	position: relative;
@@ -250,21 +267,21 @@ main > section:first-of-type ul li a:first-of-type:hover{
 main section:first-of-type button:first-of-type{
 	display: block;
 	margin:0;
-	background-color: white;
-	border-color: white;
+	background-color: var(--white-background);
+	border-color: var(--white-background);
 	padding: 1em;
 	border: none;
-	box-shadow: .1em .1em .1em .1em darkgray;
+	box-shadow: .1em .1em .1em .1em var(--greyish-background);
 }
 
 main section:first-of-type button:nth-of-type(2){
 	display: block;
 	margin:0;
-	background-color: white;
-	border-color: white;
+	background-color: var(--white-background);
+	border-color: var(--white-background);
 	padding: 1em;
 	border: none;
-	box-shadow: -.1em .1em .1em .1em darkgray;
+	box-shadow: -.1em .1em .1em .1em var(--greyish-background);
 }
 
 main section:first-of-type{
@@ -276,7 +293,7 @@ main section:first-of-type{
 }
 
 main > section:first-of-type{
-background-color: #E7E7E7;
+background-color: 	var(--offwhite-background);
 }
 
 main section > ul{
@@ -294,8 +311,8 @@ main > section:first-child ul li a img{
 /**/
 
 footer{
-	background-color: #000000;
-	color: white;
+	background-color: var(--black-background);
+	color: var(--white-background);
 	padding: 2em;
 }
 
@@ -315,7 +332,7 @@ footer ul li{
 }
 
 footer ul li a{
-	color: white;
+	color: var(--white-background);
 	font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
 }
@@ -410,7 +427,7 @@ header ul li{
 
 header ul li a{
 	display: flex;
-	color: white;
+	color: var(--white-background);
 	text-decoration: none;
 	font-size: .7em;
 	position: relative;
@@ -475,7 +492,7 @@ main > section:first-of-type ul li:nth-child(3n + 1) a{
 	height: 4em;
 	width: 4em;
 	
-	background: #009BDF;
+	background: var(--color-background);
 	border-radius: 50%;
 	border: none;
 	position: relative;
@@ -492,7 +509,7 @@ main > section:first-of-type ul li:nth-child(3n + 2) a{
 	height: 4em;
 	width: 4em;
 	
-	background: #FFEA00;
+	background: var(--yellow-background);
 	border-radius: 50%;
 	border: none;
 	position: relative;
@@ -509,7 +526,7 @@ main > section:first-of-type ul li:nth-child(3n + 3) a{
 	height: 4em;
 	width: 4em;
 	
-	background: #ED0080;
+	background: var(--pink-background);
 	border-radius: 50%;
 	border: none;
 	position: relative;

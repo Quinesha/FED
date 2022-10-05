@@ -40,7 +40,7 @@ main section:nth-of-type(2){
 	flex-wrap: nowrap;
 	overflow: auto;	
 	list-style: none;
-    background-color: white;
+    background-color: var(--white-background);
 }
 
 main section:nth-of-type(2) ul li{
@@ -63,7 +63,7 @@ main section:nth-of-type(2) a{
 
 main section:nth-of-type(2) ul li a h3{
 	font-size: 1.2em;
-	color: white;
+	color: var(--white-background);
 	order: 2;
 
 	position: absolute;
@@ -81,7 +81,7 @@ main section:nth-of-type(2) ul li a h3{
 
 main section:nth-of-type(2) a h4{
 	font-size: .8em;
-	color: white;
+	color: var(--white-background);
 
 	position: absolute;
 	margin-bottom: .5em;
@@ -107,7 +107,7 @@ main section:nth-of-type(2) ul li:hover :first-of-type{
 /*tweede spel carousel*/
 
 main section:nth-of-type(3){
-    background-color:#009BDF;
+    background-color:var(--color-background);
     text-decoration: none;
 }
 
@@ -149,7 +149,7 @@ main section:nth-of-type(3) > li:first-of-type a{
 	height: 3.5em;
 	width: 3.5em;
 	
-	background: black;
+	background: var(--black-background);
 	border-radius: 50%;
 	border: none;
 	position: relative;
@@ -193,7 +193,7 @@ main section:nth-of-type(3) ul li > :nth-child(1n + 2){
 	height: 3.5em;
 	width: 3.5em;
 	
-	background: black;
+	background: var(--black-background);
 	border-radius: 50%;
 	border: none;
 	position: absolute;
@@ -216,8 +216,7 @@ main section:nth-of-type(3) ul li a{
 }
 
 main section:nth-of-type(3) ul li a h3{
-	color: #000000;
-	font-weight: bold;
+	color: var(--black-background);
 	font-size: 1.2em;
 	order: 2;
 
@@ -226,7 +225,7 @@ main section:nth-of-type(3) ul li a h3{
 }
 
 main section:nth-of-type(3) ul h4{
-	color: #305692;
+	color: var(--blue3-background);
 	font-weight: bold;
 	font-size: .8em;
 
@@ -244,7 +243,7 @@ main section:first-of-type ul li a img{
 /*witte blok onder courasel plaatjes*/
 
 main section:nth-of-type(3) ul li{
-	background-color: white;
+	background-color: var(--white-background);
 	border-radius: 1em 1em 1em 1em;
 }
 
@@ -262,8 +261,8 @@ main section:nth-of-type(2n + 3) > a:first-of-type{
 	border-radius: .4em;
 	margin: 1em auto 1em auto;
 	width: 50%;
-	background-color: #000000;
-	color: white;
+	background-color: var(--black-background);
+	color: var(--white-background);
 	appearance: none;
 	font-family: 'Montserrat', sans-serif;
 	font-size: calc(.5em + 1vw);
@@ -280,7 +279,7 @@ main section:nth-of-type(2n + 3) > a:first-of-type:hover{
 main section:nth-of-type(4){
 	display: flex;
 	background-image: url("../images2/pattern_01.0a916b46.svg");
-	background-color: #342E34;
+	background-color: var(--brown-background);
 }
 
 main section:nth-of-type(4) ul{
@@ -336,7 +335,7 @@ main section:nth-of-type(4) ul li{
 	display: inline;
 	flex-flow: row;
 	flex-wrap: wrap;
-	background-color: white;
+	background-color: var(--white-background);
 }
 
 main section:nth-of-type(4) ul li:first-of-type{
@@ -369,8 +368,8 @@ main section:nth-of-type(4) ul li a{
 	text-align: center;
 	padding: .7em;
 	border-radius: .4em;
-	background-color: #000000;
-	color: white;
+	background-color: var(--black-background);
+	color: var(--white-background);
 	font-family: 'Montserrat', sans-serif;
 
 	font-size: 1.2em;
@@ -424,10 +423,9 @@ main section:nth-of-type(5) > li:first-of-type a{
 	height: 3.5em;
 	width: 3.5em;
 	
-	background: black;
+	background: var(--black-background);
 	border-radius: 50%;
 	border: none;
-	position: ab;
 
 	top: 0;
 	left: 0;
@@ -456,7 +454,7 @@ main section:nth-of-type(5) ul li > :nth-child(1n + 2){
 	height: 3.5em;
 	width: 3.5em;
 	
-	background: black;
+	background: var(--black-background);
 	border-radius: 50%;
 	border: none;
 	position: absolute;
@@ -480,7 +478,7 @@ main section:nth-of-type(5) h2{
 }
 
 main section:nth-of-type(5){
-    background-color:#FFF15C;
+    background-color:var(--yellow-background);
     text-decoration: none;
 }
 
@@ -514,7 +512,7 @@ main section:nth-of-type(5) ul li a{
 }
 
 main section:nth-of-type(5) ul li a h3{
-	color: #000000;
+	color: var(--black-background);
 	font-weight: bold;
 	font-size: 1.2em;
 	order: 2;
@@ -524,7 +522,7 @@ main section:nth-of-type(5) ul li a h3{
 }
 
 main section:nth-of-type(5) ul h4{
-	color: #305692;
+	color: var(--blue3-background);
 	font-weight: bold;
 	font-size: .8em;
 
@@ -544,7 +542,7 @@ main section:nth-of-type(5) ul li a img{
 /*witte blok onder courasel plaatjes section 5*/
 
 main section:nth-of-type(5) ul li{
-	background-color: white;
+	background-color: var(--white-background);
 	border-radius: 1em 1em 1em 1em;
 }
 
@@ -564,10 +562,9 @@ main section:nth-of-type(6) > li:first-of-type a{
 	height: 3.5em;
 	width: 3.5em;
 	
-	background: black;
+	background: var(--black-background);
 	border-radius: 50%;
 	border: none;
-	position: ab;
 
 	top: 0;
 	left: 0;
@@ -591,7 +588,7 @@ main section:nth-of-type(6) ul li > :nth-child(1n + 2){
 	height: 3.5em;
 	width: 3.5em;
 	
-	background: black;
+	background: var(--black-background);
 	border-radius: 50%;
 	border: none;
 	position: absolute;
@@ -643,7 +640,7 @@ main section:nth-of-type(6) h2{
 }
 
 main section:nth-of-type(6){
-    background-color:white;
+    background-color:var(--white-background);
     text-decoration: none;
 }
 
@@ -676,10 +673,10 @@ main section:nth-of-type(6) > a:first-of-type{
 	margin: 1em auto 1em auto;
 	width: 50%;
 
-	background-color: #ED0080;
-	border-color: #ED0080;
+	background-color: var(--pink-background);
+	border-color: var(--pink-background);
 	border-style: solid;
-	color: white;
+	color: var(--white-background);
 
 	font-family: 'Montserrat', sans-serif;
 	font-size: 1em;
@@ -701,7 +698,7 @@ main section:nth-of-type(6) ul{
 }
 
 main section:nth-of-type(6) ul li{
-	box-shadow: .2em .2em .2em .2em rgba(81, 78, 78, 0.073);
+	box-shadow: .2em .2em .2em .2em var(--darkgrey-background);
 }
 
 main section:nth-of-type(6) ul li a{
@@ -711,7 +708,7 @@ main section:nth-of-type(6) ul li a{
 }
 
 main section:nth-of-type(6) ul li a h3{
-	color: #000000;
+	color: var(--black-background);
 	font-weight: bold;
 	font-size: 1.2em;
 	order: 2;
@@ -721,7 +718,7 @@ main section:nth-of-type(6) ul li a h3{
 }
 
 main section:nth-of-type(6) ul h4{
-	color: #305692;
+	color: var(--blue3-background);
 	font-weight: bold;
 	font-size: .8em;
 
@@ -741,7 +738,7 @@ main section:nth-of-type(6) ul li a img{
 /*witte blok onder courasel plaatjes section 6*/
 
 main section:nth-of-type(6) ul li{
-	background-color: white;
+	background-color: var(--white-background);
 	border-radius: 1em 1em 1em 1em;
 }
 
@@ -785,7 +782,7 @@ main section:nth-of-type(7) ul li{
 	display: inline;
 	flex-flow: row;
 	flex-wrap: wrap;
-	background-color: white;
+	background-color: var(--white-background);
 }
 
 main section:nth-of-type(7) ul li:first-of-type{
@@ -818,8 +815,8 @@ main section:nth-of-type(7) ul li a{
 	text-align: center;
 	padding: .7em;
 	border-radius: .4em;
-	background-color: #000000;
-	color: white;
+	background-color: var(--black-background);
+	color: var(--white-background);
 	font-family: 'Montserrat', sans-serif;
 
 	font-size: 1.2em;
@@ -891,9 +888,9 @@ main section:nth-of-type(8) > li:first-of-type a{
 	height: 3.5em;
 	width: 3.5em;
 	
-	background: #0B6BBF;
+	background: var(--blue4-background);
 	border-radius: 50%;
-	border-color: white;
+	border-color: var(--white-background);
 	border-style: solid;
 	position: relative;
 
@@ -924,7 +921,7 @@ main section:nth-of-type(8) ul li > :nth-child(1n + 2){
 	height: 3.5em;
 	width: 3.5em;
 	
-	background: black;
+	background: var(--black-background);
 	border-radius: 50%;
 	border: none;
 	position: absolute;
@@ -988,9 +985,9 @@ main section:nth-of-type(8) > a:first-of-type{
 	margin: 1em auto 1em auto;
 	width: 50%;
 
-	background-color: #0B6BBF;
+	background-color: var(--blue4-background);
 	border:none;
-	color: white;
+	color: var(--white-background);
 
 	font-family: 'Montserrat', sans-serif;
 	font-size: 1em;
@@ -1024,7 +1021,7 @@ main section:nth-of-type(8) ul li a{
 }
 
 main section:nth-of-type(8) ul li a h3{
-	color: #000000;
+	color: var(--black-background);
 	font-weight: bold;
 	font-size: 1.2em;
 	order: 2;
@@ -1034,7 +1031,7 @@ main section:nth-of-type(8) ul li a h3{
 }
 
 main section:nth-of-type(8) ul h4{
-	color: #305692;
+	color: var(--blue3-background);
 	font-weight: bold;
 	font-size: .8em;
 
@@ -1054,7 +1051,7 @@ main section:nth-of-type(8) ul li a img{
 /*witte blok onder courasel plaatjes section 8*/
 
 main section:nth-of-type(8) ul li{
-	background-color: white;
+	background-color: var(--white-background);
 	border-radius: 1em 1em 1em 1em;
 }
 
@@ -1073,9 +1070,9 @@ main section:nth-of-type(9) > li:first-of-type a{
 	height: 3.5em;
 	width: 3.5em;
 	
-	background: #E24E9B;
+	background: var(--lightpink-background);
 	border-radius: 50%;
-	border-color: white;
+	border-color: var(--white-background);
 	border-style: solid;
 	position: relative;
 
@@ -1106,7 +1103,7 @@ main section:nth-of-type(9) ul li > :nth-child(1n + 2){
 	height: 3.5em;
 	width: 3.5em;
 	
-	background: black;
+	background: var(--black-background);
 	border-radius: 50%;
 	border: none;
 	position: absolute;
@@ -1164,7 +1161,7 @@ main section:nth-of-type(9) ul li a{
 }
 
 main section:nth-of-type(9) ul li a h3{
-	color: #000000;
+	color: var(--black-background);
 	font-weight: bold;
 	font-size: 1.2em;
 	order: 2;
@@ -1174,7 +1171,7 @@ main section:nth-of-type(9) ul li a h3{
 }
 
 main section:nth-of-type(9) ul h4{
-	color: #305692;
+	color: var(--blue3-background);
 	font-weight: bold;
 	font-size: .8em;
 
@@ -1194,7 +1191,7 @@ main section:nth-of-type(9) ul li a img{
 /*witte blok onder courasel plaatjes section 9*/
 
 main section:nth-of-type(9) ul li{
-	background-color: white;
+	background-color: var(--white-background);
 	border-radius: 1em 1em 1em 1em;
 }
 
@@ -1234,10 +1231,10 @@ main section:nth-of-type(9) > a:first-of-type{
 	margin: 1em auto 1em auto;
 	width: 50%;
 
-	background-color: #E24E9B;
-	border-color: #E24E9B;
+	background-color: var(--lightpink-background);
+	border-color: var(--lightpink-background);
 	border-style: solid;
-	color: white;
+	color: var(--white-background);
 
 	font-family: 'Montserrat', sans-serif;
 	font-size: 1em;
@@ -1254,7 +1251,7 @@ main section:nth-of-type(9) button:first-of-type img{
 main section:nth-of-type(10){
 	display: flex;
 	background-image: url("../images2/pattern_01.0a916b46.svg");
-	background-color: #342E34;
+	background-color: var(--brown-background);
 }
 
 main section:nth-of-type(10) ul{
@@ -1291,7 +1288,7 @@ main section:nth-of-type(10) ul li{
 	display: inline;
 	flex-flow: row;
 	flex-wrap: wrap;
-	background-color: white;
+	background-color: var(--white-background);
 }
 
 main section:nth-of-type(10) ul li:first-of-type{
@@ -1324,8 +1321,8 @@ main section:nth-of-type(10) ul li a{
 	text-align: center;
 	padding: .7em;
 	border-radius: .4em;
-	background-color: #000000;
-	color: white;
+	background-color: var(--black-background);
+	color: var(--white-background);
 	font-family: 'Montserrat', sans-serif;
 
 	font-size: 1.2em;
