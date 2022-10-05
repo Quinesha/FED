@@ -200,6 +200,10 @@ header nav button img{
 
 /* cartoon cirkels carousel */
 
+main section:nth-of-type(1) ul{
+	scroll-behavior: smooth;
+}
+
 main > section:first-of-type ul li a:hover{
 	width: 4em;
 }
